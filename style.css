@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6B6B6B;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid whitesmoke;
+}
+
+main {
+    max-width: 1336px;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 28
+  }
+
+h2 {
+    color: #242424;
+}
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p, span{
+    font-size: 13px;
+}
+  
+
+
+/* prima parte barra navigazione */
+
+#head1 {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 200px;
+    overflow: hidden;
+}
+
+#logo img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+
+#searchfield {
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+#searchfield input{
+    height: 40px;
+    border: transparent;
+    background-color: transparent;
+    object-fit: cover;
+}
+
+
+
+
+/* seconda parte barra navigazione */
+
+#impostazioni {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#write-button {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* generale settore news */
+
+.fav-news {
+    display: flex;
+    flex-direction: column;
+    max-width: 730px;
+    padding-right: 60px;
+}
+
+
+
+
+/* barra favaourites */
+
+.favourites {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    max-width: 730px;
+    height: 60px;
+    margin: 0px 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid whitesmoke; 
+}
+
+
+
+
+/* settore articoli */
+
+
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    max-width: 730px;
+    margin: 20px 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid whitesmoke;  
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px;
+    height: 200px;    
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.star-date-like-comments {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+/* immagine */
+
+.figure {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+
+.image img {
+    display: flex;
+    width: 150px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+/* generale settore topics */
+
+#topics {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid whitesmoke;
+    padding-top: 20px;
+    width: 368px;
+}
+
+.one-topic  {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 10px 0px 0px 20px;
+    width: 350px;
+}
+
+.topic-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(1, 143, 1);
+}
+
+
+
+
+/* Staff Pics */
+
+.writer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 10px 10px 15px;
+    width: 300px;
+}
+
+.writer-img-info {
+    display: flex;
+    justify-content: flex-start;
+    width: 320px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.script-title {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 300px;
+}
+
+
+
+
+/* Recommended topics */
+
+.more-topics {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 350px;
+    height: 130px;
+}
+
+.more-topics p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    min-width: 40px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.group-of-topics {
+    width: 260px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.third-row {
+    justify-content: flex-start;
+}
+
+
+
+
+/* Who to follow */
+
+.all-authors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content; 
+    margin-left: 5px;  
+}
+
+.author2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 320px;
+}
+
+.author-img-info {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.author-img {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 170px;
+    gap: 10px;
+}
+
+.follow-button {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-button button {
+    width: 65px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #242424;
+    background-color: white;
+}
+
+
+
+
+/* Reading list */
+
+.save-articles {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    align-content: space-between;
+}
+
+
+
+
+/* Footer */
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+    padding-left: 20px;
+}
